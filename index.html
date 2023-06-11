@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Download Video</title>
+    <title>Download Spoderman</title>
     <style>
         body {
             text-align: center;
@@ -21,6 +21,7 @@
             border-radius: 4px;
             font-size: 16px;
             cursor: pointer;
+            margin-bottom: 20px;
         }
 
         button:hover {
@@ -29,15 +30,12 @@
     </style>
 </head>
 <body>
-    <h1>Download Video</h1>
+    <h1>Download Spoderman </h1>
     <button onclick="downloadVideo()">Download</button>
 
     <script>
         function downloadVideo() {
-            var link = document.createElement("a");
-            link.href = "src/video.mp4";
-            link.download = "video.mp4";
-            link.click();
+            window.location.href = "https://drive.google.com/file/d/10NhdzyKqbWcM3ftcR-9Gu3h-PTWWscVo/view?usp=sharing";
         }
     </script>
 </body>
