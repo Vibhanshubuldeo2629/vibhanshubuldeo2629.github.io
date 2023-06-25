@@ -7,20 +7,27 @@
 <body>
   <div class="container">
     <h1>Happy Birthday!</h1>
-    <div class="timer">
-      <p>Time since you were born:</p>
-      <span id="years">0</span> years
-      <span id="months">0</span> months
-      <span id="days">0</span> days
-      <span id="hours">0</span> hours
-      <span id="minutes">0</span> minutes
-      <span id="seconds">0</span> seconds
+    <div id="passwordSection">
+      <label for="password">Enter the password:</label>
+      <input type="password" id="password" />
+      <button id="submitButton">Submit</button>
     </div>
-    <div class="message">
-      <p>On this special day,</p>
-      <p>I want to remind you that</p>
-      <p>you're one year older but still</p>
-      <p>not as old as me!</p>
+    <div id="messageSection" class="hidden">
+      <div class="timer">
+        <p>Time since you were born:</p>
+        <span id="years">0</span> years
+        <span id="months">0</span> months
+        <span id="days">0</span> days
+        <span id="hours">0</span> hours
+        <span id="minutes">0</span> minutes
+        <span id="seconds">0</span> seconds
+      </div>
+      <div class="message">
+        <p>On this special day,</p>
+        <p>I want to remind you that</p>
+        <p>you're one year older but still</p>
+        <p>not as old as me!</p>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>
