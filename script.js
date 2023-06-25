@@ -1,5 +1,5 @@
 function updateTime() {
-    const birthDate = new Date("Your Girlfriend's Birthdate");
+    const birthDate = new Date("June 26, 2023");
     const currentDate = new Date();
   
     const timeDiff = currentDate - birthDate;
