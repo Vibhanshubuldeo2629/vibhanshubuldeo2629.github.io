@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #FF6464;
+  }
+  
+  .timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  span {
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  
+  /* Add your own quirky CSS styles here */
+  
