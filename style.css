@@ -38,5 +38,10 @@ body {
     margin: 0 5px;
   }
   
+  /* Hide the message section initially */
+  .hidden {
+    display: none;
+  }
+  
   /* Add your own quirky CSS styles here */
   
